@@ -31,10 +31,6 @@ Attribute Information:
 5. class (integer)
 
 
-## Demo
-Link: []()
-
-
 ## Overview
 This example aims to detect fraudulent notes accurately.
 For that, a set of images taken from genuine and forged banknote-like specimens is created. Features such as wavelet variance, wavelet skewness, wavelet kurtosis, and image entropy are extracted from the images.
@@ -44,5 +40,12 @@ The final accuracy obtained by this method is 100% on an independent testing set
 This is a classification project, since the variable to be predicted is binary (fraudulent or legal).
 The goal here is to model the probability that a banknote is fraudulent, as a function of its features.
 
+
+## Demo
+Link: [https://bank-money-api.herokuapp.com/](https://bank-money-api.herokuapp.com/)
+
+
+## Screenshots
+<a href="url"><img src="https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/Screenshots/Screenshot%20(68).png" align="left" height="400" width="350" ></a>
 
 
