@@ -31,6 +31,10 @@ Attribute Information:
 5. class (integer)
 
 
+## Demo
+Link: []()
+
+
 ## Overview
 This example aims to detect fraudulent notes accurately.
 For that, a set of images taken from genuine and forged banknote-like specimens is created. Features such as wavelet variance, wavelet skewness, wavelet kurtosis, and image entropy are extracted from the images.
