@@ -46,6 +46,6 @@ Link: [https://bank-money-api.herokuapp.com/](https://bank-money-api.herokuapp.c
 
 
 ## Screenshots
-<a href="url"><img src="https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/Screenshots/Screenshot%20(68).png" align="left" height="400" width="350" ></a>
+<a href="url"><img src="https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/Screenshots/Screenshot%20(68).png" align="left" height="500" width="450" ></a>
 
 
