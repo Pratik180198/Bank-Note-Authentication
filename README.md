@@ -113,7 +113,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=170>](https://scikit-learn.org/stable/) [<img target="_blank" src="https://matplotlib.org/_static/logo2_compressed.svg" width=170>](https://matplotlib.org/)  [<img target="_blank" src="https://numpy.org/images/logos/numpy.svg" width=170>](https://numpy.org/) 
  [<img target="_blank" src="https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png" width=170>](https://www.docker.com/)
- [<img target="_blank" src="http://www.w3.org/2000/svg" width=170>](https://streamlit.io/)
+ [<img target="_blank" src=https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png>](https://streamlit.io/)
  
  
  ## Team
