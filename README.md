@@ -128,5 +128,3 @@ You can reach me :
 [<img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>](https://www.instagram.com/pratikkk______/)
 [<img alt="Facebook" src= "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>](https://mail.google.com/mail/?view=cm&fs=1&to=pratikbambulkar1818@gmail.com&su=SUBJECT&body=BODY)
 
-
-https://mail.google.com/mail/?view=cm&fs=1&to=pratikbambulkar1818@gmail.com&su=SUBJECT&body=BODY
