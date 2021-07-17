@@ -49,3 +49,13 @@ Link: [https://bank-money-api.herokuapp.com/](https://bank-money-api.herokuapp.c
 <a href="url"><img src="https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/Screenshots/Screenshot%20(68).png" align="left" height="500" width="550" ></a>
 
 
+## Installation
+The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+```bash
+pip install -r requirements.txt
+```
+
+For creating the ML model, [Jupyter notebook](https://jupyter.org/install) is used. For creating the web app Streamlit framework is used and we had also developed another
+web app using Flask framework and Flasgger which is a Flask extension to extract OpenAPI-Specification from all Flask views registered in your API. Flasgger also comes with SwaggerUI embedded so you can access http://localhost:5000/apidocs and visualize and interact with your API resources. 
+
+The main sapp.py is used for deployment with Heroku
