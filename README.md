@@ -135,5 +135,5 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 You can reach me 
 
-[<img alt="Instagram" src="![image](https://user-images.githubusercontent.com/72552513/126031289-2534f1b3-6499-4782-89f5-61764c904b2a.png)"/>](https://www.instagram.com/pratikkk______/)
+[<img alt="Instagram" src="![image](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>](https://www.instagram.com/pratikkk______/)
 
