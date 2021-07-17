@@ -127,5 +127,5 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 You can reach me 
 
-[https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white](https://www.instagram.com/pratikkk______/)
+[<img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>](https://www.instagram.com/pratikkk______/)
 
