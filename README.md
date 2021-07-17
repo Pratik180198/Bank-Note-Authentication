@@ -10,7 +10,6 @@
   * [Screenshots](#screenshots)
   * [Installation](#installation)
   * [Deployement on Heroku](#deployement-on-heroku)
-  * [Documentation](#documentation)
   * [Bug / Feature Request](#bug--feature-request)
   * [Technologies Used](#technologies-used)
   * [Team](#team)
@@ -65,7 +64,7 @@ We had also developed another web app using Flask framework and Flasgger which i
 
 We had used Docker which is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. Because all of the containers share the services of a single operating system kernel, they use fewer resources than virtual machines. Follow the steps to install [Docker](https://docs.docker.com/get-docker/). If your system does not supports docker then you can try [Docker toolbox](https://github.com/docker/toolbox/releases).
 
-To dockerize you must create a [Dockerfile](https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/Dockerfile)
+To dockerize you must create a [Dockerfile](https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/Dockerfile).
 
 The next step is to open the Docker Quickstart Terminal in your present working directory where all files and Dockerfile is present and shoot this command:
 
@@ -101,3 +100,17 @@ The next step is that you must create [setup.sh](https://github.com/Pratik180198
 web: sh setup.sh && streamlit run sapp.py
 ```
 
+
+## Bug / Feature Request
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/Pratik180198/Bank-Note-Authentication/issues/new) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/Pratik180198/Bank-Note-Authentication/issues/new). Please include sample queries and their corresponding results.
+
+
+## Technologies Used
+
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/yourGitHub)
+
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=170>](https://scikit-learn.org/stable/) [<img target="_blank" src="https://matplotlib.org/_static/logo2_compressed.svg" width=170>](https://matplotlib.org/)  [<img target="_blank" src="https://numpy.org/images/logos/numpy.svg" width=170>](https://numpy.org/) [<img target="_blank" src="https://pandas.pydata.org/static/img/pandas_white.svg" width=170>](https://pandas.pydata.org/)
