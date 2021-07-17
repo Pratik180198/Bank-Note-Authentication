@@ -55,7 +55,48 @@ The Code is written in Python 3.7. If you don't have Python installed you can fi
 pip install -r requirements.txt
 ```
 
-For creating the ML model, [Jupyter notebook](https://jupyter.org/install) is used. For creating the web app Streamlit framework is used and we had also developed another
-web app using Flask framework and Flasgger which is a Flask extension to extract OpenAPI-Specification from all Flask views registered in your API. Flasgger also comes with SwaggerUI embedded so you can access http://localhost:5000/apidocs and visualize and interact with your API resources. 
+For creating the ML model, [Jupyter notebook](https://jupyter.org/install) is used. For creating the web app Streamlit framework is used for running the streamlit python file run the following command in your working environment comand prompt.
+```bash
+streamlit run sapp.py
+```
+You can also follow the [streamlit documentation](https://docs.streamlit.io/en/stable/) to know more about it.
 
-The main sapp.py is used for deployment with Heroku
+We had also developed another web app using Flask framework and Flasgger which is a Flask extension to extract OpenAPI-Specification from all Flask views registered in your API. Flasgger also comes with SwaggerUI embedded so you can access http://localhost:5000/apidocs and visualize and interact with your API resources.
+
+We had used Docker which is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. Because all of the containers share the services of a single operating system kernel, they use fewer resources than virtual machines. Follow the steps to install [Docker](https://docs.docker.com/get-docker/). If your system does not supports docker then you can try [Docker toolbox](https://github.com/docker/toolbox/releases)
+
+To dockerize you must create a [Dockerfile](https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/Dockerfile)
+
+The next step is to open the Docker Quickstart Terminal in your present working directory where all files and Dockerfile is present and shoot this command:
+
+To build the Docker image 
+```bash
+docker build -t streamlit_app .
+```
+
+To run the Docker image:
+```bash
+docker run -p 8501:8501 streamlit_app
+```
+
+Instead if you have any problem you can see the [Docker Documentation](https://docs.docker.com/)
+Also see the impoertant commands for Docker provide by [DZone](https://dzone.com/articles/how-to-run-docker-container-on-your-local-machine)
+
+The main [sapp.py](https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/sapp.py) is used for deployment with Heroku.
+
+
+## Deployement on Heroku
+To deploy this app we are using Heroku Platform. You must first register on [Heroku](https://www.heroku.com/home).
+Create your new app and give the app name and start deploying with the help of Heroku CLI command or connect your Github account.
+After successful connecting search your application repository and then start your deploying process.
+Once the app is successfully build you can visit your web app.
+
+Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
+
+The next step is that you must create [setup.sh](https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/setup.sh). ‘setup.sh’ specifies the commands to be executed to configure the environment before running the app.
+
+‘Procfile’ lists the commands to be executed to start the app. In our ‘Procfile’, we’ll first run ‘setup.sh’ that creates the required config files and then run the app using the ‘streamlit run’ command.
+```bash
+web: sh setup.sh && streamlit run sapp.py
+```
+
