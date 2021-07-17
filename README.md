@@ -13,6 +13,7 @@
   * [Bug / Feature Request](#bug--feature-request)
   * [Technologies Used](#technologies-used)
   * [Team](#team)
+  * [Contact](#contact) 
 
 
 ## Dataset
