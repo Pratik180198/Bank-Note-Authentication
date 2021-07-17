@@ -63,7 +63,7 @@ You can also follow the [streamlit documentation](https://docs.streamlit.io/en/s
 
 We had also developed another web app using Flask framework and Flasgger which is a Flask extension to extract OpenAPI-Specification from all Flask views registered in your API. Flasgger also comes with SwaggerUI embedded so you can access http://localhost:5000/apidocs and visualize and interact with your API resources.
 
-We had used Docker which is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. Because all of the containers share the services of a single operating system kernel, they use fewer resources than virtual machines. Follow the steps to install [Docker](https://docs.docker.com/get-docker/). If your system does not supports docker then you can try [Docker toolbox](https://github.com/docker/toolbox/releases)
+We had used Docker which is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. Because all of the containers share the services of a single operating system kernel, they use fewer resources than virtual machines. Follow the steps to install [Docker](https://docs.docker.com/get-docker/). If your system does not supports docker then you can try [Docker toolbox](https://github.com/docker/toolbox/releases).
 
 To dockerize you must create a [Dockerfile](https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/Dockerfile)
 
@@ -79,8 +79,9 @@ To run the Docker image:
 docker run -p 8501:8501 streamlit_app
 ```
 
-Instead if you have any problem you can see the [Docker Documentation](https://docs.docker.com/)
-Also see the impoertant commands for Docker provide by [DZone](https://dzone.com/articles/how-to-run-docker-container-on-your-local-machine)
+Instead if you have any problem you can see the [Docker Documentation](https://docs.docker.com/).
+
+Also see the important commands for Docker provide by [DZone](https://dzone.com/articles/how-to-run-docker-container-on-your-local-machine).
 
 The main [sapp.py](https://github.com/Pratik180198/Bank-Note-Authentication/blob/main/sapp.py) is used for deployment with Heroku.
 
